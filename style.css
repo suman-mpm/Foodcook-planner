@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Arimo:ital@1&family=Audiowide&family=Dancing+Script:wght@400;500;600&family=Josefin+Sans:ital,wght@0,100;1,700&family=Lavishly+Yours&family=PT+Serif&family=Poppins:ital,wght@0,600;1,600&family=Raleway:ital,wght@0,300;0,400;1,200;1,300&family=Roboto:ital,wght@0,300;1,400&family=Rubik+Glitch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body {
+    background-color: aliceblue;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: #f72585;
+    color: white;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+header > img {
+    width: 70px;
+    height: auto;
+    float: left;
+    padding: 5px;
+   margin-left: -10px;
+   margin-top: -10px;
+ 
+}
+main{
+    margin: 20px auto;
+    width: 600px;
+   
+    text-align: center;
+}
+main > div > h1 {
+    font-size: 18px;
+}
+main > div > p {
+    font-size: 14px;
+}
+
+
+/* form */
+#input-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px pink;
+}
+.input-food{
+    padding:5px 10px;
+    outline: none;
+    width:100%;
+    margin-right: 15px;
+    color: 1px solid rgb(36, 36, 44);
+    border-radius: 5px;
+    background-color: rgb(241, 236, 236);
+    border: none;
+}
+.save{
+    padding: 6px 10px;
+    background-color: #f72585;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 80px;
+
+}
+.food-container{
+    background-color: #fff;
+    margin:20px 0;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    border-radius: 7px;
+}
+.food-container .food-item{
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(190, 187, 187);
+    margin: 10px 0;
+    color: gray;
+    border-radius: 5px;
+    text-transform: capitalize;
+}  
+.food-container  .food-item:hover{
+    background-color:  #f72585;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.alert{
+    padding: 10px 15px 10px 10px;
+    background-color: rgb(67, 216, 54);
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: left;
+    border-left: 3px solid green;
+    font-weight: 500;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.alert button{
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
